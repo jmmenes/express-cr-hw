@@ -15,6 +15,8 @@ app.set("views", path.join(__dirname, "views"));
 app.set("views engine", "ejs");
 
 // start express server
-app.listen(3000, function () {
-  console.log("Server started in port 3000");
-});
+// app.listen(3000, function () {
+//   console.log("Server started in port 3000");
+// });
+
+modules.export = app;

@@ -51,5 +51,3 @@ router.post("/create-new-todo", function (req, res) {
 });
 
 module.exports = router;
-
-module.exports = router;
